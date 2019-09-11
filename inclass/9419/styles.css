@@ -1,0 +1,14 @@
+body{
+    background:skyblue;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1 {
+    color:orchid;
+}
+h2{
+    color:purple;
+}
+p{
+    color:navy;
+}
