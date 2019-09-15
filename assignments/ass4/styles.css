@@ -1,14 +1,18 @@
 body {
     background: #fefbd8;
     font-family: Arial, Helvetica, sans-serif;
+    padding-top: 45px;
 }
-.twocol, .threecol{
+.twocol, .threecol, .eightcol{
     background:#3b3b8f;
     color: white;
     justify-content: space-around;
     padding: 5px;
     margin: 5px;
     border: 2px;
+}
+header{
+    padding:5px;
 }
 ul{
     list-style-type: none;
