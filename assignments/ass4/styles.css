@@ -5,6 +5,7 @@ body {
 }
 .twocol, .threecol, .eightcol{
     background:#3b3b8f;
+    border-radius: 2px;
     color: white;
     justify-content: space-around;
     padding: 5px;
@@ -21,6 +22,7 @@ ul{
     position: fixed;
     top: 0;
     width: 100%;
+    border-radius: 2px;
     background-color: #36486b;
 }
 li{
