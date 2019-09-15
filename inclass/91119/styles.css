@@ -1,0 +1,46 @@
+body{
+    background:red;
+}
+.twocolumns {
+    background: lightskyblue;
+    justify-content: space-between;
+}
+.col1{
+    background: darkslateblue;
+    flex-basis: 48%;
+}
+.col2{
+    background: slateblue;
+    flex-basis: 48%;
+}
+.threecol{
+    background: lightsalmon;
+
+}
+.bigcol{
+    flex: 3;
+    order: 2;
+}
+.smallcol{
+    flex: 1;
+    order: 1;
+}
+.smallcol2{
+    flex:1;
+    order: 3;
+}
+.vert{
+    flex:1;
+}
+.hovert{
+    flex:1;
+    flex-direction: column;
+}
+.imgplace{
+    justify-content: space-around;
+}
+@media (min-width:900px){
+    .imgplace,.threecol,.twocolumns,.rubix{
+        display: flex;
+    }
+}
