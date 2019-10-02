@@ -1,0 +1,15 @@
+.cols{
+    background: plum;
+}
+.col1, .col2, .col3{
+    flex: 1;
+    flex-basis: 29%;
+}
+
+
+
+@media (min-width:900px){
+    .cols{
+        display: flex;
+    }
+}

@@ -1,0 +1,165 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+/* Header */
+#main-header{
+    background: black;
+    color:#fff;
+}
+#main-nav{
+    background: #73000a;
+}
+#main-header img{
+    margin-right: 10px;
+}
+#main-header-top{
+    padding: 0 40px;
+}
+#main-header a{
+    color:#fff;
+    text-decoration: none;
+    display: flex;
+}
+
+/* Nav */
+#main-nav ul{
+    list-style-type: none;
+}
+#main-nav li{
+    padding: 10px;
+    font-size: 16px;
+}
+.col1-4of5{
+    flex-basis: 75%;
+
+}
+#hamburger div {
+    width: 35px;
+    height: 5px;
+    background-color: #73000a;
+  }
+#hamburger{
+    display:none;
+}
+.hidden{
+    display: none;
+}
+.col5of5{
+    flex-basis: 20%;
+}
+/* Banner */
+#banner {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right:50px;
+}
+/* Main Content */
+#main-content{
+    padding: 20px;
+}
+.sc-content{
+    margin-bottom: 5px;
+}
+/* Footer */
+#main-footer{
+    background: #73000a;
+    color: #fff;
+}
+#leftside{
+    list-style-type: none;
+}
+#leftside li{
+    margin-left: 10px;
+}
+#rightside{
+    list-style-type: none;
+    padding-right: 4px;
+}
+#rightside li{
+    margin-right: 10px;
+}
+
+#footerhalf{
+    flex-basis: 45%;
+}
+#footerthird{
+    flex-basis: 30%;
+}
+#footersixth{
+    flex-basis: 15%;
+}
+#footerbottom a{
+    color: #fff;
+    text-decoration: none;
+}
+#footerbottom{
+    color: #fff;
+    background: black;
+    display: flex;
+    padding-right: 3px;
+}
+.footerlist{
+    list-style-type: none;
+    text-align: left;
+}
+.footerlist a{
+    color: #fff;
+    text-decoration: none;
+}
+/* Font Styles */
+#main-content h1{
+    color: #73000a;
+    font-size: 35px;
+}
+@media (min-width:900px){
+    #main-nav ul{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #footerfooter{
+        display:flex;
+        justify-content: space-evenly;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #main-content-jr{
+        display: flex;
+        justify-content: space-between;
+    }
+    #footerhead{
+        display:flex;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #fhleft,#leftside, #rightside{
+        display:flex;
+    }
+    #footerbottom ul{
+        display:flex;
+        list-style-type: none;
+    }
+    .listcontainer{
+        display:flex;
+    }
+    .sc-content{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media all and (max-width:500px){
+    #main-nav ul{
+        flex-direction: column;
+    }
+    #main-nav ul li{
+        text-align: center;
+    }
+    #hamburger{
+        display: block;
+    }
+}
+#HBitems.hidden{
+    display: none;
+}
