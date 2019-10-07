@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+    padding: 20px 20px 20px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: darkslategrey;
+}
+.partHolder{
+    background: plum;
+    margin: 15%;
+    padding: 40px 30px;
+    border-radius: 4px;
+}
+.partHolder input, button{
+    background: darkslategrey;
+    color: plum;
+    border: none;
+    border-radius: 2px;
+    padding: 4px;
+}
+.partHolder h2{
+    text-align: center;
+    color: darkslategrey;
+}
+.partHolder p{
+    color: darkslategrey;
+}
