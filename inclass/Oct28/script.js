@@ -1,15 +1,28 @@
-async function special(){
-    console.log("In Special Beginning");
-    setTimeout(doStuff, 2000);
-    console.log("In special Ending");
-}
+async function displayShoe(){
+    console.log("3");
+    let response = await fetch("https://portiaportia.github.io/csce242/json/shoe.json");
+    let shoeJson = await response.json();
+    let shoeName = shoeJson.name;
+    let shoeBrand = shoeJson.brand;
+    let reviews = shoeJson.reviews;
 
-function doStuff(){
-    console.log("In do stuff");
+    console.log(`${shoeName} by ${shoeBrand}`)
+    for(i in reviews){
+        console.log(reviews[i]);
+    }
+    
+    let section = document.createElement("section");
+    section.innerHTML = `${shoeName} by ${shoeBrand}`
+    let content = document.getElementById("content");
+    content.append(section);
 }
 
 window.onload = function(){
-    this.console.log("Before calling Special");
-    this.special();
-    this.console.log("After calling Special");
+    console.log("1");
+    this.displayShoe();
+    let content = document.getElementById("content");
+    let h1 = document.createElement("h1");
+    h1.innerHTML = "I love shoes";
+    content.append(h1);
+    //append a h1 to your page
 }

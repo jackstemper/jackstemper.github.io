@@ -1,0 +1,23 @@
+[
+    {
+        "name":"x-men flyer",
+        "brand":"merrell",
+        "price":"34.52",
+        "rating":"2",
+        "comments":["Best shoe ever","I love it","X-MEN"]
+    },
+    {
+        "name":"predator",
+        "brand":"addidas",
+        "price":"45.52",
+        "rating":"5",
+        "comments":["Best cleat ever","I like it","Preadator"]
+    },
+    {
+        "name":"hypervenom",
+        "brand":"nike",
+        "price":"61.52",
+        "rating":"1",
+        "comments":["Baddest ever","I hate it","Nike sux"]
+    }
+]
