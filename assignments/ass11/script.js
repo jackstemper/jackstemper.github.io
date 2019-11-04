@@ -14,7 +14,8 @@ function book(title, author, genre, date, rating, img){
         imgElm.src = this.img;
         divElm.append(imgElm);
         divElm.append(pElm);
-
+        secElm = document.getElementById("book-shelf");
+        secElm.append(divElm);
     }
 }
 function makeBookshelf(bookshelf){
@@ -27,3 +28,4 @@ let bookshelf = [];
 bookshelf.push(new book("Catcher in the Rye", "J. D. Salinger", "Coming-Of-Age Fiction", 1952, 3, "../images/rye"));
 bookshelf.push(new book("Slaughterhouse Five", "Kurt Vonnegut", "Dark Comedy", 1969, 5, "../images/five"));
 bookshelf.push(new book("Binging with Babish", "Andrew Rea", "Cookbook", 2019, 4, "../img/binging"));
+makeBookshelf(bookshelf);

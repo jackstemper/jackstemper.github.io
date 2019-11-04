@@ -19,5 +19,12 @@
         "price":"61.52",
         "rating":"1",
         "comments":["Baddest ever","I hate it","Nike sux"]
+    },
+    {
+        "name":"freerun",
+        "brand":"nike",
+        "price":"50.25",
+        "rating":"4",
+        "comments":["Best shoe ever","very like","I like it"]
     }
 ]
