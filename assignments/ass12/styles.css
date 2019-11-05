@@ -1,0 +1,16 @@
+body{
+    background-color: lightslategrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flexfix{
+    background-color: skyblue;
+    box-shadow: 10px 10px lightskyblue;
+    border-radius: 3%;
+    padding-bottom: 5px;
+}
+@media (min-width:900px){
+    .flexfix{
+        display: flex;
+    }
+}
