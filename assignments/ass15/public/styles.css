@@ -1,0 +1,23 @@
+body {
+    background:lightslategray;
+}
+
+#dogs {
+    width:80%;
+    margin:auto;
+}
+
+.dog {
+    padding:10px;
+    margin:10px;
+    background:lightskyblue;
+    border:3px solid white;
+}
+
+.dogaction{
+    width:60%;
+    background:skyblue;
+    border:3px solid white;
+    padding:10px;
+    margin:10px auto;
+}

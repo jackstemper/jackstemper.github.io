@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="shortcut icon" href="">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1>Dogs</h1>
+        <div id="dogs"></div>
+
+        <!-- Show dogs -->
+        <div class="dogaction">
+            <h3>Show A dog:</h3>
+            <p>
+                <label for="showDogId">Dog Id:</label>
+                <input id="showDogId">
+            </p>
+            <button id="showDogBtn">Show dog</button>
+            <div id="dog"></div>
+        </div>
+
+        <!-- Add a dog-->
+        <div class="dogaction">
+            <h3>Create a dog</h3>
+            <p>
+                <label for="newDogName">Name:</label>
+                <input id="newDogName">
+            </p>
+            <p>
+                <label for="newDogBreed">Breed:</label>
+                <input id="newDogBreed">
+            </p>
+            <p>
+                <label for="newDogColor">Color:</label>
+                <input id="newDogColor">
+            </p>
+            <button id="addDogBtn">Add Dog</button>
+        </div>
+
+        <!--Edit a dog-->
+        <div id="edit-dog-form" class="dogaction">
+            <h3>Edit a Dog</h3>
+            <p>
+                <label for="editDogId">Dog Id:</label>
+                <input id="editDogId">
+            </p>
+            <p>
+                <label for="editDogName">Dog Name:</label>
+                <input id="editDogName">
+            </p>
+            <p>
+                <label for="editDogBreed">Dog Breed:</label>
+                <input id="editDogBreed">
+            </p>
+            <p>
+                <label for="editDogColor">Dog color:</label>
+                <input id="editDogColor">
+            </p>
+            <button id="editDogBtn">Edit dog</button>
+        </div>
+        <!--Delete a dog-->
+        <div class="dogaction">
+            <h3>Delete a Dog</h3>
+            <p>
+                <label for="deleteDogId">Dog to be deleted:</label>
+                <input id="deleteDogId">
+            </p>
+            <button id="deleteDogBtn">Delete Dog</button>
+        </div>
+    </body>
+</html>
